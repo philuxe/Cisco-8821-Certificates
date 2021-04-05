@@ -22,7 +22,6 @@ Input CSV Format:
 PHONE_NAME;LINE_NAME;IP_ADDRESS
 SEPF8B7E24ABCDE;Philippe Blavier;10.X.X.X
 
-
 Warnings:
 
 - Your 8821 phones should have a backup Wifi profile (with WAP-PSK authentication for instance), just in case ...
