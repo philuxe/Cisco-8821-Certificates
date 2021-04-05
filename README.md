@@ -17,10 +17,15 @@ Requirements:
 - Phones certificates files name should be PHONE_NAME.pfx (example : SEPXXXXX.pfx)
 - An input CSV file must be provided with a predefined format, that will be the 8821 phone list you have exported from CUCM
 
+Input CSV Format:
+
+PHONE_NAME;LINE_NAME;IP_ADDRESS
+SEPF8B7E24ABCDE;Philippe Blavier;10.X.X.X
+
 
 Warnings:
 
 - Your 8821 phones should have a backup Wifi profile (with WAP-PSK authentication for instance), just in case ...
 - that Python script could be improved a lot, some exceptions are not handled (for instance HTTP connect issue are managed by the script and unreachable will be skipped,  but incorrect credentials resulting in login issue are NOT, script will exit)
-- actions/modifications are logged in log file but verbosity & format could be improved
+- actions/modifications are logged in log file (8821.log)
 
