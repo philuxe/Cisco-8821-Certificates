@@ -21,7 +21,7 @@ Input CSV Format:
 
 PHONE_NAME;LINE_NAME;IP_ADDRESS
 
-SEPF8B7E24ABCDE;Philippe Blavier;10.X.X.X
+SEPF8B7E24ABCDE;Jacques Chirac;10.X.X.X
 
 Warnings:
 
