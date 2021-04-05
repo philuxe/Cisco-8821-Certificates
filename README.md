@@ -4,14 +4,14 @@ That script will allow bulk certificates modifications on Cisco 8821 IP Phones. 
 Features:
 
 - Display installed certificates (user provided, not the MIC)
-- Remove Server CA
-- Remove User certificate
-- Add User Certificate (8821 IP Phone supports only one user certificate)
+- Remove Server CA (the one signing your radius cert)
+- Remove User certificate (used for wifi authentication - eap-tls)
+- Add User Certificate (8821 IP Phone supports only one user certificate at a time)
 
 Requirements:
 
-- Python with required lib's
-- Webui must be enabled (from CUCM)
+- Python with required lib's (see script imports)
+- Web Admin must be enabled (from CUCM)
 - Phones need to be configured with same Webui credentials (from CUCM)
 - Phones certificates must be generated with PFX format, all of them must be password protected with the same key
 - Phones certificates files name should be PHONE_NAME.pfx (example : SEPXXXXX.pfx)
